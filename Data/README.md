@@ -30,9 +30,9 @@ chr21:28000071-29949939 (IMR90,K562,A549,HCT116+/-AUXIN - diffraction limited)
 
 chr21:28000071-29229892  (IMR90 STORM) 
 
-chr21:18627714-20577518 (IMR90 - diffraction limited)
+chr21:18627714-20577518 (IMR90 - ORCA)
 
-chr21:34628096-37117534 (IMR90,K562,A549,HCT116+/-AUXIN - diffraction limited)  
+chr21:34628096-37117534 (IMR90,K562,A549,HCT116+/-AUXIN - ORCA)  
 
 ### and in hg19:
 
@@ -48,11 +48,11 @@ chr21:29372390-30602213 (IMR90 STORM)
 
 https://www.aidenlab.org/juicebox/?juiceboxURL=http://bit.ly/2OhYEOm
 
-chr21:20000032-21949831 (IMR90 - diffraction limited)
+chr21:20000032-21949831 (IMR90 - ORCA)
 
 https://www.aidenlab.org/juicebox/?juiceboxURL=http://bit.ly/2Ofskf3
 
-chr21:36000395-38489834 (HCT116+/-AUXIN - diffraction limited)  
+chr21:36000395-38489834 (HCT116+/-AUXIN - ORCA)  
 
 https://www.aidenlab.org/juicebox/?juiceboxURL=http://bit.ly/2OgYsyB
 
@@ -64,7 +64,7 @@ Thus for the first region (chr21:28Mb-30Mb ) the 1st,2nd... segments are approxi
 ### Note on imaging data:
 
 The nan's in the imaging data (~5-10% of the positions in a given cell) correspond to "dim" spots that are of comparable brightness with the background fluctuations and were consequently removed. 
-We found in practice that removing this percentage of low confidence/precision which occurs stochastically does not affect computing the average or the median inter-distances or even the domain boundary calling in which the nan's were simply not included in the analyis.
+We found in practice that removing this percentage of low confidence/precision which occurs stochastically does not affect computing the average or the median inter-distances or even the domain boundary calling in which the nan's were simply not included in the analysis.
 Similarly the "contact fractions" were computed relative to the number of total observations of each pair of chromatin segments, not relative to the total number of chromosomes.
 
 (See the example images and example analysis code on the sample data for a better understanding of the raw data: https://github.com/BogdanBintu/ChromatinImaging/blob/master/Difraction-limited_ImageAnalysis/StandardAnalysis.ipynb)
